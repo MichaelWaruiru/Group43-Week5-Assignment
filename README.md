@@ -53,7 +53,7 @@
 ### Data Split:
 - Train: 70%
 - Validation: 15%
--Test: 15% (using stratified sampling)
+- Test: 15% (using stratified sampling)
 
 ### Hyperparameters:
 - n_estimators
