@@ -156,16 +156,14 @@ Note: If requirements.txt is missing, install packages individually as shown abo
 
 ### How to Run
 - Launch Jupyter Notebook: jupyter notebook
-- Open the desired noteboo and run the cells.
+- - Open the desired notebook and run the cells.
 
 ## Authors & Acknowledgments
-- Group 43, AI for Software Engineering,FebCohort 2025.
+- Group 43, AI for Software Engineering, FebCohort 2025.
 
 ## Contributing
 - Contributions are welcome! Please fork the repository and open a pull request with your proposed changes.
 
 ## License
-- This repository is for educational purposes. See the LICENSE file for details (if available).
+- This repository is for educational purposes.
 
-## More Information
-- For details on each notebook, consult the inline documentation and comments within each .ipynb file.
