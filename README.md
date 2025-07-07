@@ -32,9 +32,9 @@
 ### KPI: Dropout prediction accuracy (e.g., % of correctly identified at-risk students)
 
 ### 2. Data Collection & Preprocessing
-- Data Sources: Kaggle – Student Data CSV
+- Dataset: – "Student_Data_V1.csv"
+- Data Source: Kaifi, Khushter (2025), “Student Dataset v1”, Mendeley Data, V1, doi: 10.17632/5mtjg3drj5.1
 - SIS: Academic records, attendance, course enrollment
-- LMS: Assignment submissions, login frequency
 
 ### Potential Bias:
 - Socioeconomic bias affecting underrepresented groups
@@ -60,7 +60,7 @@
 - max_depth
 
 ### 4. Evaluation & Deployment
-- Metrics:
+- Evaluation Metrics: F1 Score, Sensitivity & Specificity, Confusion Matrix
 - Precision: Minimize false positives
 - Recall: Maximize detection of at-risk students
 - Concept Drift:
@@ -77,7 +77,9 @@
 - Clinicians, administrators, care coordinators, patients, compliance teams
 
 ### 2. Data Strategy
-- Data Sources:
+-  Dataset:'readmission_data.csv' - Strack B, DeShazo JP, Gennings C, et al. Impact of HbA1c measurement on hospital readmission rates: analysis of 70,000 clinical database patient records. Biomed Res Int. 2014;2014:781670. doi:10.1155/2014/781670.
+- Data Source: The data set for this project is an excerpt of the dataset provided during the Visual Automated Disease Analytics (VADA) summer school training, 2018. The VADA Summer School training dataset was derived from the Health Facts database (Cerner Corporation, Kansas City, MO, USA).This database contains clinical records from 130 participating hospitals across the USA. These clinical records contain information pertaining to 69,984 observations and 27 variables including patient encounter data, demographics, HbA1c levels, diagnostic testing and treatments, and patient outcomes. Data used were from 1999–2008 from a cohort of 130 hospitals, deidentified and trimmed to include only inpatient visits.
+- Target Variable: readmitted (binary: 1 = Yes, 0 = No)
 - EHRs: Diagnoses, procedures, labs, medications
 - Demographics: Age, gender, ethnicity
 - Social factors: Housing, support, insurance status
@@ -95,9 +97,9 @@
 
 ### 3. Model Development
 - Model: Random Forest Classifier
-- Metrics (hypothetical):
-- = 0.727
-- Recall = 0.800
+- Evaluation Metrics: F1 Score, Sensitivity & Specificity, Confusion Matrix
+- Precision: Minimize false positives
+- Recall: Maximize detection of patients at-risk readmission.
 ### 4. Deployment
 - Steps:
 - Serve via RESTful API
@@ -123,10 +125,6 @@
 - Fairness-constrained algorithms
 - Subgroup performance audits
 - References:
-
-
-Trade-offs
-Accuracy vs. Interpretability:
 
 
 ## Part 4: Reflection
