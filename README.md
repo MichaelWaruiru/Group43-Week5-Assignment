@@ -2,13 +2,10 @@
 
 ## Overview
 
-This repository contains the solution for the Group 43 Week 5 assignment. The project demonstrates [briefly describe the main problem being solved or the application's purpose]. 
-
-## Features
-
-- [Feature 1: Describe a core feature]
-- [Feature 2: Describe another important feature]
-- [Add more features as relevant]
+This repository contains the practical submission for Group 43’s Week 5 assignment, focusing on the AI development Workflow such problem definition, Data collection and preprocessing, model development (model selection and training), Model evaluation and deployment, Ethical consideration and reflection. 
+- Real-world datasets was employed. 
+- The implementation leverages popular Python libraries: Scikit-learn etc. 
+- The goal is to develop solutions, analyze results, and reflect on the ethical implications of AI models. 
 
 ## Getting Started
 
