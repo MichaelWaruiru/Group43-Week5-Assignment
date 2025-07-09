@@ -12,17 +12,17 @@ Both projects use Random Forest classifiers with proper preprocessing pipelines 
 
 ---
 
-## 📂 Folder Structure (Suggested)
+## 📂 Folder Structure
 
 ```
 .
-├── notebooks/
+├── Group43-Week5-Assignment/
 │   ├── readmission_prediction.ipynb
 │   └── student_dropout_prediction.ipynb
-├── data/
+├   |
 │   ├── readmission_data.csv
 │   └── student_dataset_v1.csv
-├── models/
+├   |
 │   └── readmission_model.pkl
 ├── requirements.txt
 └── README.md
